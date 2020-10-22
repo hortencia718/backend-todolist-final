@@ -33,8 +33,8 @@ class TasksController < ApplicationController
         # looking in the params for that :id
         # response: render edit
     def edit
-        tasks =Task.find(params[:id])
-         render json: tasks
+        # tasks =Task.find(params[:id])
+        #  render json: tasks
     end
 
 
@@ -62,7 +62,7 @@ class TasksController < ApplicationController
     end
 
 
-#  not today gi
+
 
 
 
